@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+	<h1>this is my titel</h1>
+	<script>
+		//again about the arrays
+		////////////////
+
+		// var actors = ["Tom Hanks", "Leonardo di Caprio", " Jennifer Lawrence", "Daniel Radcliffe"];
+
+		console.log(actors[2]);
+		document.write(actors[2]);
+		console.log(actors);
+		actors[0]="Awesome" + actors[0];
+
+		document.write(actors[0]) +'<br>');
+		document.write(actors[1]) +'<br>');
+
+		for (var i = 0; i <2; i++) {
+			document.write(i+ '<br>');
+		}
+
+		objects(1)
+		///////////////
+		var johnName = "John Doe";
+		var johnFavColor = "blue";
+		document.write("persons name is" + johnName + "<br>");
+		document.write("persons favorit color is" + johnFavColor + "<br>");
+
+
+		
+
+		var janeName     = "Jane Doe";
+		var janeFavColor = "green";
+		document.write("persons name is" + janeName + "<br>");
+		document.write("persons favorite color is" + janeFavColor + "<br>");
+
+		printperson(janeName, janeFavColor);
+		printperson(johnName, johnFavColor);
+
+		function printperson(name, color){
+			document.write("persons2 name is" + name + "<br>");
+			document.write("persons favorite color is" + color + "<br>");
+		}
+
+		var John = {
+			name: "John Doe"
+			favcolor: "blue"};
+
+			var Jane = {
+				name: "Jane Doe"
+				favcolor: "green"};
+
+
+				document.write("<h2> objects in JS 2</h2>");
+				//document.write("jon's name is" + John.name + "<br>");
+
+
+			
+		
+
+
+	</script>			
+</body>
+</html>
